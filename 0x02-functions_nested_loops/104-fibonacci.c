@@ -35,7 +35,7 @@ int numLength(int num)
 
 int main(void)
 {
-	int count, initialOs;
+	int count, initial0s;
 	unsigned long f1 = 1, f2 = 2, sum;
 	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f1o = 0, f2o = 0, sumo = 0;
 
@@ -43,12 +43,12 @@ int main(void)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initialOs = numLength(mx) - 1 - numLength(f1);
+		initial0s = numLength(mx) - 1 - numLength(f1);
 
-		while (f1o > 0 && initialOs > 0)
+		while (f1o > 0 && initial0s > 0)
 		{
 			printf("%d", 0);
-			initialOs--;
+			initial0s--;
 		}
 
 		printf("%lu", f1);
