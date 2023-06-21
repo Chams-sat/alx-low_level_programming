@@ -5,7 +5,7 @@
  *	 0 if n is zero
  *	 - if n is less then zero
  *
- * @c: tackes integer type input for function
+ * @n: tackes integer type input for function
  *
  * Return: 1 if + and 0 if 0 and -1 if -
 */
