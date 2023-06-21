@@ -3,6 +3,8 @@
 /**
  * print-times_table - prints time table of n
  *
+ * Description: this function prints the n times table starting with 0
+ *
  * @n: takes number input
 */
 
