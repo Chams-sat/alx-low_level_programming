@@ -274,5 +274,4 @@ int main(int ac, char **av)
 	print_entry(h);
 	if (close(fd))
 		dprintf(STDERR_FILENO, "Error closing file descriptor: %d\n", fd), exit(98);
-	return (EXIT_SUCCESS);
 }
